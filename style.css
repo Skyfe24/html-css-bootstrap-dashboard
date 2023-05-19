@@ -4,3 +4,16 @@
 .bg-mygrey{
     background-color: #dee3e4;
 }
+.bigcontainer{
+    width: 100px;
+    height: calc(100vh - 24px);
+}
+.topblue{
+    width: 100%;
+    height: 100px;
+    color: ;
+}
+.cards-area{
+    width: 100%;
+    height: 100px;
+}
