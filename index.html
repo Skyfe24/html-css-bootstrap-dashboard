@@ -16,7 +16,8 @@
     <header>
         <div class="container">
             <div class="d-flex justify-content-between align-items-center gap-3">
-                <div class="logo"> <img src="./img/logo.svg" alt=""></div>
+                <div class="logo desktop d-none d-md-block"> <img src="./img/logo.svg" alt=""></div>
+                <div class="logo mobile  d-md-none "> <img src="./img/mobile-logo.png" alt="" class="image-mobile"></div>
                 <nav class="navbar bg-light w-100 ">
                     <input class="form-control form-control-lg bg-mygrey" type="text"
                         placeholder=" &#x1F50D;Prova a cercare: Lezioni di Laravel"
@@ -57,38 +58,40 @@
     </header>
     <main>
         <!-- Sharing space in the MAIN-->
-        <div class="bigcontainer bg-secondary ">
-            <div class="d-flex">
+        <div class="bigcontainer  ">
+            <div class="d-flex wrapper  ">
                 <!-- SIDEBAR ONLY-->
-                <nav class="sidebar w-100 bg-mygrey  flex-column justify-content-between">
-                    <div class="my-navs">
+                <nav class="sidebar d-flex text-center  py-4  flex-column justify-content-between bg-secondary">
+                    <div class="my-navs ">
                         <div> Home </div>
                         <div> Home </div>
                         <div> Home </div>
                     </div>
-                    <div class="navs"> Admin</div>
+                    <div class="navs"> Admin </div>
                 </nav>
-
-                <div class="whole flex-column">
+                <div class="row ">
                     <!-- blue part with "boolean" and pills-->
-                    <div class="topblue  bg-primary"></div>
-                    <!-- "prossime classi" "F.A.Q. TODO "-->
-                    <div class="cards-area bg-secondary"></div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
+                    <div class="topblue height-100  bg-primary"></div>
+                    <div class="cards"></div>
+                
+                    
+                        
 
             </div>
+           
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
 
 
 
