@@ -37,6 +37,10 @@ header{
     width: 80px;
     height: 100%;
     border: solid rgb(25, 0, 255);
+    
+    color: #ffffff;
+    background-image: url(img/sidebar-bg.png);
+    background-color: rgb(8, 1, 71);
 }
 .wrapper {
     width: 100%;
