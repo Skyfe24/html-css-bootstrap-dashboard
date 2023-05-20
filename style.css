@@ -4,6 +4,9 @@
 .bg-mygrey{
     background-color: #dee3e4;
 }
+.bg-mygrey2{
+    background-color: rgb(192, 198, 201);
+}
 .bigcontainer{
     width: 100%;
     height: calc(100vh - 24px);
