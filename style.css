@@ -57,6 +57,15 @@ header{
 .whitey{
     color: white;
 }
+.bg-whitey{
+    background-color: white;
+}
 .bg-blue{
     background-color: rgb(5, 5, 68);
+}
+.avtr{
+    width: 20px;
+}
+tbody{
+    line-height: 40px;
 }
