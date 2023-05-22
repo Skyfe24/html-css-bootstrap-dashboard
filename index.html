@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center gap-5">
+            <div class="d-flex  align-items-center gap-5">
                 <div class="logo desktop d-none d-md-block"> <img src="./img/logo.svg" alt=""></div>
                 <div class="logo mobile  d-md-none "> <img src="./img/mobile-logo.png" alt="" class="image-mobile">
                 </div>
@@ -26,11 +26,25 @@
                         aria-label=".form-control-lg example">
 
                 </nav>
-                <nav class="bell my-yellow"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link bell my-yellow "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                         fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
                         <path
                             d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
-                    </svg></nav>
+                    </svg></a>
+                    </li>
+                  </ul>
+                </nav>
 
 
 
@@ -63,7 +77,7 @@
         <div class="bigcontainer  ">
             <div class="d-flex wrapper  ">
                 <!-- SIDEBAR ONLY-->
-                <nav class="sidebar d-flex text-center  py-4  flex-column justify-content-between ">
+                <nav class="sidebar d-flex text-center   flex-column justify-content-between ">
                     <div class="my-navs ">
                         <div> <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor"
                                 class="bi bi-house-door" viewBox="0 0 16 16">
@@ -96,8 +110,8 @@
                     <div class="topblue   bg-primary ">
                         <div class="container-fluid">
 
-                            <div class="row  align-items-center whitey pt-5">
-                                <div class="left-part my-6 col-md-6"> <span class="whitey h3">Boolean</span> <span
+                            <div class="row rowpad  align-items-center whitey">
+                                <div class="left-part my-6 col-lg-6 order-2 order-sm-0 "> <span class="whitey h3">Boolean</span> <span
                                         class=" badge rounded-pill bg-blue whitey">Piano Blaze</span> <br>
                                     <span class=" badge rounded-pill bg-blue whitey mb-3 ">3 app</span>&nbsp;<svg
                                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -115,10 +129,10 @@
                                         class=" badge rounded-pill d-none d-md-inline bg-blue whitey mb-3 ">Boolean blog
                                         app</span>
                                 </div>
-                                <div class="middle-part col-md-4"> Studenti online negli ultimi 30 minuti <br>
+                                <div class="middle-part col-lg-4 order-2 order-sm-0"> Studenti online negli ultimi 30 minuti <br>
                                     <h4 class="">125</h4>
                                 </div>
-                                <div class="right-part col-md-2 col order: -1"> Nuovo Studente &nbsp; <button
+                                <div class="right-part col-lg-2 order-1 order-sm-0"> Nuovo Studente &nbsp; <button
                                         class="btn btn-primary border-light" type="button" data-bs-toggle="offcanvas"
                                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button>
 

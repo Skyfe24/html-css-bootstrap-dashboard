@@ -37,8 +37,8 @@ header {
 .sidebar {
   width: 130px;
   height: auto;
-  border: solid rgb(25, 0, 255);
-
+  
+  padding-top: 75px;
   color: #ffffff;
   background-image: url(img/sidebar-bg.png);
   background-color: rgb(8, 1, 71);
@@ -81,4 +81,7 @@ tbody {
 }
 .offcanvas-body , .offcanvas-title{
     color: black;
+}
+.rowpad{
+    padding-top: 75px;
 }
