@@ -1,6 +1,9 @@
 .my-yellow {
   color: rgb(230, 151, 48);
 }
+.mygray-c{
+    color: gray;
+}
 .bg-mygrey {
   background-color: #dee3e4;
 }
@@ -84,4 +87,7 @@ tbody {
 }
 .rowpad{
     padding-top: 75px;
+}
+.touchable{
+    cursor: pointer;
 }

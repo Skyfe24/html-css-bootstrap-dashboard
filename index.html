@@ -20,30 +20,41 @@
                 <div class="logo desktop d-none d-md-block"> <img src="./img/logo.svg" alt=""></div>
                 <div class="logo mobile  d-md-none "> <img src="./img/mobile-logo.png" alt="" class="image-mobile">
                 </div>
-                <nav class="navbar bg-light w-100 ">
+                <nav class="navbar bg-light flex-grow-1">
                     <input class="form-control form-control-lg bg-mygrey" type="text"
                         placeholder=" &#x1F50D;Prova a cercare: Lezioni di Laravel"
                         aria-label=".form-control-lg example">
 
                 </nav>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link bell my-yellow "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
-                    </svg></a>
-                    </li>
-                  </ul>
+
+                <div class="  d-none d-lg-block mygray-c d-flex justify-content-between gap-2">
+                    <a href="#" class="list"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-task" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z"/>
+                        <path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z"/>
+                        <path fill-rule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"/>
+                      </svg></a>
+                    <a href="#" class="domanda"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                      </svg></a>
+                    <a href="#" class="3puntini"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                      </svg></a>
+                    
+                </div>
+
+                <div class="dropstart ">
+                    <a href="#" class="bell my-yellow" data-bs-toggle="dropdown"
+                        aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                        </svg></a></a>  </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Chiedi aiuto a Marco L.</a></li>
+                        <li><a class="dropdown-item" href="#">Chiedi aiuto a Marco B.</a></li>
+                        <li><a class="dropdown-item" href="#">Chiedi aiuto a Marius</a></li>
+                    </ul>
+                </div>
                 </nav>
 
 
@@ -78,7 +89,7 @@
             <div class="d-flex wrapper  ">
                 <!-- SIDEBAR ONLY-->
                 <nav class="sidebar d-flex text-center   flex-column justify-content-between ">
-                    <div class="my-navs ">
+                    <div class="my-navs touchable">
                         <div> <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="currentColor"
                                 class="bi bi-house-door" viewBox="0 0 16 16">
                                 <path
@@ -95,14 +106,14 @@
                                     d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z" />
                             </svg> Signals </div>
                     </div>
-                    <div class="navs"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    <div class="navs touchable mb-4"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                             fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
                             <path
                                 d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
                             <path
                                 d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
                         </svg>
-                        <div class="span d-none d-md-inline">Admin</div>
+                        <div class="span d-none d-md-inline ">Admin</div>
                     </div>
                 </nav>
                 <div class="main-part">
@@ -111,7 +122,7 @@
                         <div class="container-fluid">
 
                             <div class="row rowpad  align-items-center whitey">
-                                <div class="left-part my-6 col-lg-6 order-2 order-sm-0 "> <span class="whitey h3">Boolean</span> <span
+                                <div class="left-part my-6 col-sm-4 col-lg-6 order-2 order-sm-0 "> <span class="whitey h3">Boolean</span> <span
                                         class=" badge rounded-pill bg-blue whitey">Piano Blaze</span> <br>
                                     <span class=" badge rounded-pill bg-blue whitey mb-3 ">3 app</span>&nbsp;<svg
                                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -129,10 +140,10 @@
                                         class=" badge rounded-pill d-none d-md-inline bg-blue whitey mb-3 ">Boolean blog
                                         app</span>
                                 </div>
-                                <div class="middle-part col-lg-4 order-2 order-sm-0"> Studenti online negli ultimi 30 minuti <br>
+                                <div class="middle-part col-sm-4 col-lg-4 order-3 order-sm-0"> Studenti online negli ultimi 30 minuti <br>
                                     <h4 class="">125</h4>
                                 </div>
-                                <div class="right-part col-lg-2 order-1 order-sm-0"> Nuovo Studente &nbsp; <button
+                                <div class="right-part col-sm-4 col-lg-2 order-1 order-sm-0"> Nuovo Studente &nbsp; <button
                                         class="btn btn-primary border-light" type="button" data-bs-toggle="offcanvas"
                                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button>
 
