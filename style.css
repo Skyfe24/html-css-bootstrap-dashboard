@@ -91,3 +91,7 @@ tbody {
 .touchable{
     cursor: pointer;
 }
+.my-navs{
+    text-align: initial;
+    margin-left: 14px;
+}
